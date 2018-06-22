@@ -1,0 +1,407 @@
+
+/*总样式文件，公共样式*/
+
+/**********************************定义变量所属颜色*****************************************/
+$bg-left-bar:#6879ff;
+
+$bg-top-bar:#5c6dee;
+/*白色*/
+$white:#fff;
+/*黄色*/
+$yellow:#f4e91c;
+
+/*body背景*/
+$bg-body: #f5f7fb;
+
+/*字体颜色*/
+$text:#333333;
+
+/*浅黑色字体*/
+$light-black:#848383;
+
+/*紫色字体颜色*/
+$purple-text:#5c6dee;
+
+/*灰色*/
+$grey:#999999;
+
+/*深灰色*/
+$dark-grey:#848383;
+
+/*边框颜色*/
+$border-color:#e3e3e4;
+
+/*橙色文字*/
+$orange-text:#ff5a00;
+
+/*红色*/
+$red:#f03333;
+
+/*浅黄色*/
+$light-yellow:#fff6d9;
+
+/*橙色按钮*/
+$orange-btn:#fd8d50;
+
+/*绿色*/
+$green:#1ac7a4;
+
+
+/**********************************字体大小******************************************/
+$px1:1px;
+$px2:2px;
+$px3:3px;
+$px4:4px;
+$px5:5px;
+$px6:6px;
+$px7:7px;
+$px8:8px;
+$px9:9px;
+$px10:10px;
+$px11:11px;
+$px12:12px;
+$px13:13px;
+$px14:14px;
+$px15:15px;
+$px16:16px;
+$px17:17px;
+$px18:18px;
+$px19:19px;
+$px20:20px;
+$px21:21px;
+$px22:22px;
+$px23:23px;
+$px24:24px;
+$px25:25px;
+
+/***********************************公共样式****************************************/
+body{
+  font-family: 'PingFangSC-Light, sans-serif','PingFang SC', 'STHeitiSC-Light', 'Helvetica-Light', arial, sans-serif, 'Droid Sans Fallback';
+  background: $bg-body;
+  font-size:$px14;
+  color:$text;
+}
+.pb-5{
+  padding-bottom: $px5;
+}
+.pl-5{
+  padding-left: $px5;
+}
+.pt-5{
+  padding-top: $px5;
+}
+.pr-5{
+  padding-right: $px5;
+}
+
+
+.mt-5{
+  margin-top: $px5;
+}
+.mb-5{
+  margin-bottom: $px5;
+}
+.ml-5{
+  margin-left: $px5;
+}
+.mr-5{
+  margin-right: $px5;
+}
+
+
+.pt-10{
+  padding-top: $px10;
+}
+.pl-10{
+  padding-left: $px10;
+}
+.pb-10{
+  padding-bottom: $px10;
+}
+.pr-10{
+  padding-right: $px10;
+}
+
+
+
+.mt-10{
+  margin-top: $px10;
+}
+.mb-10{
+  margin-bottom: $px10;
+}
+.ml-10{
+  margin-left: $px10;
+}
+.mr-10{
+  margin-right: $px10;
+}
+
+
+.pt-15{
+  padding-top: $px15;
+}
+.pl-15{
+  padding-left: $px15;
+}
+.pb-15{
+  padding-bottom: $px15;
+}
+.pr-15{
+  padding-right: $px15;
+}
+
+
+
+.mt-15{
+  margin-top: $px15;
+}
+.mb-15{
+  margin-bottom: $px15;
+}
+.ml-15{
+  margin-left: $px15;
+}
+.mr-15{
+  margin-right: $px15;
+}
+
+
+
+
+
+.pl-20{
+  padding-left: $px20;
+}
+.pt-20{
+  padding-top: $px20;
+}
+.pr-20{
+  padding-right: $px20;
+}
+.pb-20{
+  padding-bottom: $px20;
+}
+
+
+.mt-20{
+  margin-top: $px20;
+}
+.mb-20{
+  margin-bottom: $px20;
+}
+.ml-20{
+  margin-left: $px20;
+}
+.mr-20{
+  margin-right: $px20;
+}
+
+
+.p-10{
+  padding: 10px;
+}
+.p-15{
+  padding: 15px;
+}
+.p-20{
+  padding: 20px;
+}
+
+/*黑色标题字*/
+.title-style{
+  color: $text;
+  font-size:$px16;
+}
+
+/*紫色标题字*/
+.title-purple{
+  color: $purple-text;
+  font-size:$px16;
+}
+
+/*黑色内容字*/
+.text-style{
+  color: $text;
+  font-size:$px14;
+}
+
+/*紫色内容字*/
+.text-purple{
+  color: $purple-text;
+  font-size:$px14;
+}
+
+
+/*提示字*/
+.assist-style{
+  color: $dark-grey;
+  font-size:$px14;
+}
+
+/*灰色边框*/
+.grey-border{
+  border:1px solid $border-color;
+}
+
+
+/*div块*/
+.px10-block{
+  background: $white;
+  margin-bottom: $px10;
+  margin-top: $px10;
+}
+.px15-block{
+ background: $white;
+ margin-bottom: $px15;
+ margin-top: $px15;
+
+}
+.px20-block{
+  background: $white;
+  margin-bottom: $px20;
+  margin-top: $px20;
+
+}
+
+/*紫色按钮*/
+.purple-btn{
+  background: $purple-text;
+  color:$white;
+  padding: 6px 12px;
+
+}
+
+/*页面中白色block的灰色边框*/
+.page-block{
+  background: $white;
+  border:1px solid $border-color;
+  border-radius: 5px;
+}
+
+
+/*输入框*/
+.input-default{
+  border: $px1 solid $border-color;
+  border-radius: $px8;
+  height: 38px;
+  text-indent: 20px;
+  -webkit-transition:.2s;
+  -webkit-appearance: none;
+}
+
+.input-default:focus{
+  border-color:$purple-text;
+}
+
+/*下拉框样式*/
+.el-select-dropdown{
+  .el-select-dropdown__wrap{
+    li{
+      padding-left: $px20;
+    }
+    .el-select-dropdown__list .el-select-dropdown__item.selected{
+      color: $purple-text;
+    }
+  }
+}
+.select-default{
+  .el-input.is-focus .el-input__inner{
+    border-color: $purple-text;
+  }
+  .el-input__inner:focus{
+    border-color: $purple-text;
+  }
+  .el-input__inner{
+    padding: 0;
+    text-indent: 20px;
+    border-radius: 5px;
+    color: inherit;
+    font-size: inherit;
+  }
+}
+
+/*checkbox的样式*/
+.checkbox-default{
+  .el-checkbox__input.is-checked+.el-checkbox__label{
+    color: $text;
+  }
+  .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner{
+    background-color: $purple-text;
+    border-color: $purple-text;
+  }
+  .el-checkbox__inner:hover,.el-checkbox__input.is-focus .el-checkbox__inner {
+    border-color: $purple-text;
+  }
+}
+
+
+
+/*进度条重写样式*/
+.step-style{
+  .el-steps{
+    background: none;
+    .el-step__main{
+      .el-step__title{
+        color:$text
+      }
+      .el-step__arrow{
+        border:1px dashed $purple-text;
+        height: 0;
+        margin-top:9px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      .el-step__arrow::before{background: none;height: 0;width: 0;}
+      .el-step__arrow::after{background: none;height: 0;width: 0;}
+    }
+    .el-step.is-simple .el-step__icon{
+      width: 24px;
+      height: 24px;
+      font-size: 14px;
+      background: $purple-text;
+      .is-text{
+        border: 2px solid $purple-text;
+
+      }
+    }
+    .el-step__icon.is-text{
+      border:0;
+    }
+    .sign{
+      width: 24px;
+      background: $purple-text;
+      color:$white;
+      border-radius: 50%;
+      line-height: 24px;
+      text-align: center;
+    }
+  }
+}
+
+
+/*表格重写样式*/
+.table-default {
+  .el-table thead {
+    color: $text;
+  }
+  .el-table {
+    th {
+      background: $bg-body;
+      height: 40px;
+      padding: 0;
+      text-align: center;
+    }
+    td{
+      padding: 0;
+      height: 40px;
+      text-align: center;
+      font-size: $px14;
+      color: $text;
+    }
+  }
+}
+
+
+
+

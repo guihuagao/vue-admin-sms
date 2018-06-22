@@ -1,0 +1,61 @@
+
+/*图标字体文件*/
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('common/fonts/icomoon.eot?3tu1jt');
+  src:  url('common/fonts/icomoon.eot?3tu1jt#iefix') format('embedded-opentype'),
+  url('common/fonts/icomoon.ttf?3tu1jt') format('truetype'),
+  url('common/fonts/icomoon.woff?3tu1jt') format('woff'),
+  url('common/fonts/icomoon.svg?3tu1jt#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-copy:before {
+  content: "\e900";
+
+}
+.icon-rankcard:before {
+  content: "\e901";
+
+}
+.icon-message:before {
+  content: "\e902";
+
+}
+.icon-log:before {
+  content: "\e903";
+}
+.icon-care:before {
+  content: "\e904";
+
+}
+.icon-manage:before {
+  content: "\e905";
+
+}
+.icon-home:before {
+  content: "\e906";
+
+}
+.icon-account:before {
+  content: "\e907";
+
+}
+
